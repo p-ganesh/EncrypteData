@@ -14,6 +14,6 @@ public class Encrypt {
             j++;
 
         }
-        System.out.println(en);
+        System.out.println("Your encrytped word is: " + en);
     }
 }
