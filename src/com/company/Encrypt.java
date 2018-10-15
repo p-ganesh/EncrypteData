@@ -10,7 +10,7 @@ public class Encrypt {
         for (int i = 0; i < a.length(); i++) {
             int j = 0;
             char x = a.charAt(j);
-            String en = "" + x;
+             en = en + x;
             j++;
 
         }
