@@ -11,6 +11,7 @@ public class Main {
         Encrypt word = new Encrypt(encrypt);
 
 
+        System.out.println("Your encrytped word is: " + en.Encrypting());
        /* System.out.println("Please select a password.");
         String pword = kbreader.next();
 

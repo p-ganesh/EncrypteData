@@ -4,16 +4,13 @@ package com.company;
  * Created by pg304 on 10/15/18.
  */
 public class Encrypt {
-    public String en = "";
+    public String en;
 
-    public Encrypt (String a) {
+    public Encrypting (String a) {
         for (int i = 0; i < a.length(); i++) {
-            int j = 0;
-            char x = a.charAt(j);
-             en = en + x;
-            j++;
-
+            char x = a.charAt(i);
+            en = en + x;
         }
-        System.out.println("Your encrytped word is: " + en);
+        return en;
     }
 }
